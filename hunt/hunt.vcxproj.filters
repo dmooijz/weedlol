@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cc" />
+    <ClCompile Include="cheat\addresses\addr.cc" />
+    <ClCompile Include="utils\utils.cc" />
+    <ClCompile Include="hook\hk_present.cc" />
+    <ClCompile Include="gui\imgui.cpp" />
+    <ClCompile Include="gui\imgui_draw.cpp" />
+    <ClCompile Include="gui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="menu\menu.cc" />
+    <ClCompile Include="cheat\player\zombie_bone.cc" />
+    <ClCompile Include="cheat\player\player.cc" />
+    <ClCompile Include="cheat\player\enemy.cc" />
+    <ClCompile Include="cheat\player\dog.cc" />
+    <ClCompile Include="cheat\player\immolator.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cheat\addresses\addr.hh" />
+    <ClInclude Include="utils\utils.hh" />
+    <ClInclude Include="hook\hook.hh" />
+    <ClInclude Include="sdk\i_renderer.hh" />
+    <ClInclude Include="utils\Vec2.hh" />
+    <ClInclude Include="gui\imconfig.h" />
+    <ClInclude Include="gui\imgui.h" />
+    <ClInclude Include="gui\imgui_impl_dx11.h" />
+    <ClInclude Include="gui\imgui_internal.h" />
+    <ClInclude Include="gui\stb_rect_pack.h" />
+    <ClInclude Include="gui\stb_textedit.h" />
+    <ClInclude Include="gui\stb_truetype.h" />
+    <ClInclude Include="menu\menu.hh" />
+    <ClInclude Include="menu\font_def.hh" />
+    <ClInclude Include="utils\XorStr.h" />
+    <ClInclude Include="cheat\player\base.hh" />
+    <ClInclude Include="sdk\dependencies\depend.hh" />
+    <ClInclude Include="utils\Vec3.hh" />
+    <ClInclude Include="sdk\i_game_framework.hh" />
+    <ClInclude Include="sdk\i_action_map_manager.hh" />
+    <ClInclude Include="sdk\i_entity.hh" />
+    <ClInclude Include="sdk\i_entity_system.hh" />
+    <ClInclude Include="sdk\defenition.hh" />
+    <ClInclude Include="sdk\i_entity_class.hh" />
+    <ClInclude Include="utils\matrix.hh" />
+    <ClInclude Include="utils\quat.hh" />
+    <ClInclude Include="sdk\i_skeleton_pose.hh" />
+    <ClInclude Include="sdk\i_character_instance.hh" />
+    <ClInclude Include="sdk\i_default_skeleton.hh" />
+    <ClInclude Include="sdk\i_ai_object.hh" />
+    <ClInclude Include="sdk\i_ai_actor_proxy.hh" />
+    <ClInclude Include="cheat\objects\base.hh" />
+  </ItemGroup>
+</Project>
